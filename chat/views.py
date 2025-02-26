@@ -4,7 +4,7 @@ from django.views.decorators.csrf import csrf_exempt
 import os
 import base64
 
-genai.configure(api_key="AIzaSyCCT5W1XNAWOKaqKj5cYc1MnQPfv64ebSA")  # Thay bằng API key của bạn
+genai.configure(api_key="Your_API")  # Thay bằng API key của bạn
 model = genai.GenerativeModel("gemini-1.5-pro")
 
 # Bộ nhớ tạm để lưu lịch sử chat (Dùng database nếu cần)
